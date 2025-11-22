@@ -54,9 +54,9 @@ body:
       label: "What is the estimated effort for this task?"
       options:
       - "Unknown"
-      - "Low (less than 1 class period)"
-      - "Medium (1 to 2 class periods)"
-      - "High (3 - 4 class periods)"
-      - "Huge (more than 4 class periods, needs sub-tasks)"
+      - "Low (less than 1 hour)"
+      - "Medium (2 to 4 hours)"
+      - "High (6 - 8 hours)"
+      - "Huge (more than 8 hours, needs sub-tasks)"
     validations:
       required: true
