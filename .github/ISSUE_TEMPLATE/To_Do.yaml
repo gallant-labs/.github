@@ -1,0 +1,61 @@
+name: "Task Item"
+description: "Add an artist or programmer's task to the project."
+title: "TO DO: "
+type: Task
+projects: ["CRB-GDI/42"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Provide the task details below."
+  
+  - type: input
+    id: taskDesc
+    attributes:
+      label: "Additional information"
+      description: "If necessary, provide any additional context to explain the scope of this task"
+      placeholder: "ex. For MVP we just need walk and jump.  Other player movement will be done later"
+            
+  - type: dropdown
+    id: taskType
+    attributes:
+      label: "Task type"
+      options:
+        - "Design: UI Wireframe"
+        - "Design: Dialogue Script"
+        - "Programming: Scene"
+        - "Programming: Prefab"
+        - "Programming: Animation Controller"
+        - "Programming: Script"
+        - "Art: Button Image"
+        - "Art: Icon Image"
+        - "Art: Animation"
+        - "Art: Character"
+        - "Art: Environment"
+        - "Sound: Voice Over"
+        - "Sound: SFX"
+        - "Sound: Ambient"
+    validations:
+      required: true
+  - type: dropdown
+    id: taskPriority
+    attributes:
+      label: "What is the priority for this task?"
+      options:
+        - "0 - Undefined"
+        - "1 - Must Have"
+        - "2 - Should Have"
+        - "3 - Could Have"
+        - "4 - Won't Have"
+  - type: dropdown
+    id: taskEffort
+    attributes:
+      label: "What is the estimated effort for this task?"
+      options:
+      - "Unknown"
+      - "Low (less than 1 class period)"
+      - "Medium (1 to 2 class periods)"
+      - "High (3 - 4 class periods)"
+      - "Huge (more than 4 class periods, needs sub-tasks)"
+    validations:
+      required: true
