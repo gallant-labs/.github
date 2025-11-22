@@ -2,7 +2,7 @@ name: "Bug report (form)"
 description: "Report the bugs you find so we can continue to improve!"
 title: "BUG: "
 type: Bug
-projects: ["CRB-GDI/42"]
+# projects: ["gallant-lab/1"]
 
 body:
   - type: markdown
