@@ -21,6 +21,7 @@ body:
     attributes:
       label: "Task type"
       options:
+        - "CI/CD: Action workflow"
         - "Design: UI Wireframe"
         - "Design: Dialogue Script"
         - "Programming: Scene"
