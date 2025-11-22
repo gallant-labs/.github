@@ -15,7 +15,7 @@ This organization highlights a blend of:
 ---
 
 ## 🔧 Featured Projects
-* Works In progress *
+* Works In process *
 ### **Unity WebGL Build Pipeline**
 Automated CI/CD pipeline using GitHub Actions to build and deploy Unity WebGL projects.  
 Supports both single-repo GitHub Pages publishing and cross-repo deployment patterns used in classroom environments.
